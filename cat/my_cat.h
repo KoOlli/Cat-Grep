@@ -1,5 +1,5 @@
-#ifndef SRC_S21_CAT_H_
-#define SRC_S21_CAT_H_
+#ifndef MY_CAT_H_
+#define MY_CAT_H_
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -18,6 +18,6 @@ struct flags {
 }flag;
 
 void flages(int argc, char *argv[]);
-void s21_cat(int argc, char *argv[]);
+void my_cat(int argc, char *argv[]);
 
-#endif // SRC_S21_CAT_H_
+#endif // MY_CAT_H_

@@ -1,5 +1,5 @@
-#ifndef SRC_S21_GREP_H_
-#define SRC_S21_GREP_H_
+#ifndef MY_GREP_H_
+#define MY_GREP_H_
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -20,6 +20,6 @@ struct flags {
     int o;
 }flag;
 
-void s21_grep(int argc, char *argv[]);
+void my_grep(int argc, char *argv[]);
 
-#endif // SRC_S21_GREP_H_
+#endif // MY_GREP_H_

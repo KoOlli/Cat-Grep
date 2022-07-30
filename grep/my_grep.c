@@ -1,12 +1,12 @@
-#include "s21_grep.h"
+#include "my_grep.h"
 
 int main(int argc, char *argv[]) {
     flag.e = flag.i = flag.v = flag.c = flag.l = flag.n = flag.h = flag.s = flag.f = flag.o = 0;
-    s21_grep(argc, argv);
+    my_grep(argc, argv);
     return 0;
 }
 
-void s21_grep(int argc, char *argv[]) {
+void my_grep(int argc, char *argv[]) {
     const char* short_options = "eivclnhsfo";
     struct option long_options[] = {
         {"--exclude", 0, NULL, 'e'},

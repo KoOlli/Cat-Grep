@@ -1,9 +1,9 @@
-#include "s21_cat.h"
+#include "my_cat.h"
 
 int main(int argc, char *argv[]) {
     flag.b = flag.e = flag.s = flag.n = flag.t = flag.T = flag.E = flag.v = 0;
     flages(argc, argv);
-    s21_cat(argc, argv);
+    my_cat(argc, argv);
     return 0;
     }
 
@@ -64,7 +64,7 @@ void flages(int argc, char *argv[]) {
     }
 }
 
-void s21_cat(int argc, char *argv[]) {
+void my_cat(int argc, char *argv[]) {
     // printf("%d\n", optind);
     FILE *smt_out_there;
     for (int i = optind; i < argc; i++) {
